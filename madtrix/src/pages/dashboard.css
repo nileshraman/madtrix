@@ -1,0 +1,29 @@
+.statistics-container {
+  display: flex;
+  flex-wrap: nowrap; /* This ensures the cards stay in a single line */
+  gap: 10px; /* Adjust the gap between cards as needed */
+}
+
+.statistics-card-wrapper {
+  flex: 1;
+  /* Adjust the width or any other styles if needed */
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: nowrap; /* Ensures the cards stay in a single line */
+  gap: 10px;
+  margin-top: 20px;
+  max-height: 300px; /* Limits the height of the container */
+  overflow-y: auto;
+}
+
+.card {
+  flex: 1;
+  padding: 15px; /* Reduced padding */
+  border: 1px solid #e0bcab;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: auto;
+  overflow: hidden; 
+}
